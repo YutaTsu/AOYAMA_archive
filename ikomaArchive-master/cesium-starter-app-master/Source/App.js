@@ -9,5 +9,5 @@ var modelMatrix + Cesium.Transforms.eastNorthUpToFixesFrame{
 var model = scene.primitives.add(Cesium.Model.fromDae({
     url : 'https://yutatsu.github.io/AOYAMA_archive/ikomaArchive-master/aoyama_3d_practice.dae',
     modelMatrix : modelMatrix,
-    acale : 200.0
-}));
+    scale : 200.0
+    }));
