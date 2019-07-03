@@ -9,4 +9,5 @@ var entity = viewer.entities.add({
         uri : 'https://yutatsu.github.io/AOYAMA_archive/ikomaArchive-master/aoyama_3D_practice.glb'
     }
 });
+
 viewer.trackedEntity = entity;
