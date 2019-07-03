@@ -4,8 +4,8 @@
         <contributor>
             <authoring_tool>SketchUp 17.1.173</authoring_tool>
         </contributor>
-        <created>2019-07-03T11:02:05Z</created>
-        <modified>2019-07-03T11:02:05Z</modified>
+        <created>2019-07-03T11:08:56Z</created>
+        <modified>2019-07-03T11:08:56Z</modified>
         <unit meter="0.0254000" name="inch" />
         <up_axis>Z_UP</up_axis>
     </asset>
@@ -143,17 +143,8 @@
                         </technique_common>
                     </bind_material>
                 </instance_geometry>
-                <instance_geometry url="#ID83">
-                    <bind_material>
-                        <technique_common>
-                            <instance_material symbol="Material2" target="#ID78">
-                                <bind_vertex_input semantic="UVSET0" input_semantic="TEXCOORD" input_set="0" />
-                            </instance_material>
-                        </technique_common>
-                    </bind_material>
-                </instance_geometry>
                 <node name="skp_camera_Last_Saved_SketchUp_View">
-                    <matrix>0.2528778 0.6685143 -0.6993865 -4387.7294922 -0.9674982 0.1747315 -0.1828007 1375.7673340 0.0000000 0.7228814 0.6909721 8948.6376953 0.0000000 0.0000000 0.0000000 1.0000000</matrix>
+                    <matrix>0.0710286 0.7983369 -0.5980076 -28266.2714844 -0.9974743 0.0568483 -0.0425832 -7624.3920898 -0.0000000 0.5995218 0.8003584 41816.1445312 0.0000000 0.0000000 0.0000000 1.0000000</matrix>
                     <instance_camera url="#ID1" />
                 </node>
             </node>
@@ -547,7 +538,7 @@
         <geometry id="ID77">
             <mesh>
                 <source id="ID80">
-                    <float_array id="ID82" count="6">9.3009531 173.3520558 0.0000000 9.3009528 3.7248943 0.0000000</float_array>
+                    <float_array id="ID82" count="6">5174.1144682 10209.9230017 0.0000000 5221.5314067 10213.2723635 0.0000000</float_array>
                     <technique_common>
                         <accessor count="2" source="#ID82" stride="3">
                             <param name="X" type="float" />
@@ -561,27 +552,6 @@
                 </vertices>
                 <lines count="1" material="Material2">
                     <input offset="0" semantic="VERTEX" source="#ID81" />
-                    <p>0 1</p>
-                </lines>
-            </mesh>
-        </geometry>
-        <geometry id="ID83">
-            <mesh>
-                <source id="ID84">
-                    <float_array id="ID86" count="6">5174.1144682 10209.9230017 0.0000000 5221.5314067 10213.2723635 0.0000000</float_array>
-                    <technique_common>
-                        <accessor count="2" source="#ID86" stride="3">
-                            <param name="X" type="float" />
-                            <param name="Y" type="float" />
-                            <param name="Z" type="float" />
-                        </accessor>
-                    </technique_common>
-                </source>
-                <vertices id="ID85">
-                    <input semantic="POSITION" source="#ID84" />
-                </vertices>
-                <lines count="1" material="Material2">
-                    <input offset="0" semantic="VERTEX" source="#ID85" />
                     <p>0 1</p>
                 </lines>
             </mesh>
