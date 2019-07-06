@@ -7,5 +7,5 @@ var modelMatrix = Cesium.Transforms.eastNorthUpToFixedFrame(
 var model = scene.primitives.add(Cesium.Model.fromGltf({
     url: 'https://yutatsu.github.io/AOYAMA_archive/ikomaArchive-master/aoyama_3D_practice.glb',
     modelMatrix : modelMatrix,
-    scale : 200.0
+    scale : 200000.0
 }));
