@@ -7,3 +7,5 @@ var entity = viewer.entities.add(Cesium.Model.fromGltf({
     modelMatrix : modelMatrix,
     scale : 10.0
     }));
+viewer.camera.flyTo({   
+     destination : Cesium.Cartesian3.fromDegrees(139.424511, 35.395578, 45000.0)});
