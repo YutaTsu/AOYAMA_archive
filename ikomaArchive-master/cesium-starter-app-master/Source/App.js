@@ -1,7 +1,7 @@
 var viewer = new Cesium.Viewer('cesiumContainer');
 
 var entity = viewer.entities.add(Cesium.Model.fromGltf({
-    url: 'https://yutatsu.github.io/AOYAMA_archive/ikomaArchive-master/cesium-starter-app-master/ThirdParty/Cesium/aoyama_3D_practice.glb',
+    url: 'https://yutatsu.github.io/AOYAMA_archive/ikomaArchive-master/cesium-starter-app-master/ThirdParty/Cesium/modeltry.glb',
     position : new Cesium.Cartesian3(139.424511,  35.395578, 0.0),
     modelMatrix : modelMatrix,
     scale : 2000
