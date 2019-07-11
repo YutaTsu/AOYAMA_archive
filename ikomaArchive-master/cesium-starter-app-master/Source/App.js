@@ -4,7 +4,6 @@ var tileset = viewer.scene.primitives.add(
         url: Cesium.IonResource.fromAssetId(33964)
     })
 );
-viewer.trackedEntity = entity;
 viewer.camera.flyTo({   
      destination : Cesium.Cartesian3.fromDegrees(139.712565,35.665181, 2000.0)}); 
      
