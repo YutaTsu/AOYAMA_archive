@@ -1,7 +1,7 @@
 var viewer = new Cesium.Viewer('cesiumContainer', {
     terrainProvider : new Cesium.CesiumTerrainProvider({
          url: Cesium.IonResource.fromAssetId(1)
-         })
+    })
 });
 viewer.scene.globe.depthTestAgainstTerrain = true;
 
