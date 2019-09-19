@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Folder>
+	<name>model_190815</name>
+	<description><![CDATA[Created with <a href="http://sketchup.com">SketchUp</a>]]></description>
+	<LookAt>
+		<longitude>139.7110766285</longitude>
+		<latitude>35.66497642752</latitude>
+		<altitude>924.2857179261</altitude>
+		<heading>10.35643887249</heading>
+		<tilt>34.43085250472</tilt>
+		<range>1161.225827113</range>
+	</LookAt>
+	<Folder>
+		<name>Tour</name>
+		<Placemark>
+			<name>Scene 1</name>
+			<LookAt>
+				<longitude>139.7110766285</longitude>
+				<latitude>35.66497642752</latitude>
+				<altitude>924.2857179261</altitude>
+				<heading>10.35643887249</heading>
+				<tilt>34.43085250472</tilt>
+				<range>1161.225827113</range>
+			</LookAt>
+		</Placemark>
+	</Folder>
+	<Placemark>
+		<name>Model</name>
+		<Style id="default">
+		</Style>
+		<Model id="model_1">
+			<altitudeMode>relativeToGround</altitudeMode>
+			<Location>
+				<longitude>139.7123837471</longitude>
+				<latitude>35.66573422112</latitude>
+				<altitude>0</altitude>
+			</Location>
+			<Orientation>
+				<heading>359.249011655</heading>
+				<tilt>0</tilt>
+				<roll>0</roll>
+			</Orientation>
+			<Scale>
+				<x>1</x>
+				<y>1</y>
+				<z>1</z>
+			</Scale>
+			<Link>
+				<href>untitled.dae</href>
+			</Link>
+			<ResourceMap>
+			</ResourceMap>
+		</Model>
+	</Placemark>
+</Folder>
+</kml>
