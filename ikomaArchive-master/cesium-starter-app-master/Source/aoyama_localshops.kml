@@ -97,8 +97,9 @@
 		</Style>
 		<Placemark>
 			<name>山陽堂書店</name>
-			<description>山陽堂書店
-明治創業</description>
+			<description><![CDATA[<img src="https://raw.githubusercontent.com/YutaTsu/Aoyama_archive/master/ikomaArchive-master/S__174047236のコピー.jpg">
+			山陽堂書店
+            明治創業]]></description>
 			<LookAt>
 				<longitude>139.7125408592403</longitude>
 				<latitude>35.66553023268105</latitude>
